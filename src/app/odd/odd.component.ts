@@ -5,9 +5,7 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './odd.component.html',
   styleUrls: ['./odd.component.css']
 })
-export class OddComponent implements OnInit {
-  oddNumbers: number[] = []; // array to store odd numbers
-  evenNumbers: number[] = []; // array to store even numbers	
+export class OddComponent implements OnInit {	
 
   @Input() number: number;
   constructor() { }
