@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-	onIntervalFired(){
+	onIntervalFired(firedNumber: number){
 		console.log();
 	}
 
