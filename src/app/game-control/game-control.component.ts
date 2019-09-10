@@ -15,7 +15,7 @@ export class GameControlComponent implements OnInit {
   }
 
   onGameStart(){
-  	this.interval = setInterval();
+  	this.interval = setInterval(1000);
   }
 
   onGamePause(){
