@@ -17,7 +17,7 @@ export class AppComponent {
 		this.evenNumbers.push(firedNumber);
 	}else
 	{
-
+		this.oddNumbers.push(firedNumber);
 	}
 	}
 
