@@ -13,8 +13,11 @@ export class GameControlComponent implements OnInit {
   }
 
   onGameStart(){
-  	
+
   }
-  onGamePause(){}
+  
+  onGamePause(){
+
+  }
 
 }
