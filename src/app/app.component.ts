@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
 	onIntervalFired(firedNumber: number){
-		console.log();
+		console.log(firedNumber);
 	}
 
 }
