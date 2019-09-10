@@ -12,7 +12,9 @@ export class GameControlComponent implements OnInit {
   ngOnInit() {
   }
 
-  onGameStart(){}
+  onGameStart(){
+  	
+  }
   onGamePause(){}
 
 }
