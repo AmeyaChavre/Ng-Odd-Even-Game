@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./game-control.component.css']
 })
 export class GameControlComponent implements OnInit {
+  
+  interval; // declaring a interval property
 
   constructor() { }
 
@@ -15,7 +17,7 @@ export class GameControlComponent implements OnInit {
   onGameStart(){
 
   }
-  
+
   onGamePause(){
 
   }
